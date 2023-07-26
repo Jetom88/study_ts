@@ -14,10 +14,10 @@ function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
 }
 
 const todo1 = {
-  title: "hello",
-  description: "hh",
+  title: "organize desk",
+  description: "clear clutter",
 };
 
 const todo2 = updateTodo(todo1, {
-  description: "ho?",
+  description: "throw out trash",
 });
